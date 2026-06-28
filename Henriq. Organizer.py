@@ -19,7 +19,7 @@ def create():
 
 print("Henriq. Organizer by @henriqueosdev TIKTOK\n")
 
-path1 = input(r"Enter the folder path (or drag it): ")
+path1 = input(r"Enter the folder path (or drag it): ").strip('"')
 path2 = os.listdir(path1)
 
 for i in path2:
